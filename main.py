@@ -17,4 +17,8 @@ resultado= numero_uno + numero_dos
 resultado=str(resultado)
 print("El resultado de la suma es: " + resultado) 
 
+#esto es una busqueda
+mensaje="Hola Jose Oscar"
+buscar_subcadena=mensaje.find("Oscar")
+print(buscar_subcadena)
 
