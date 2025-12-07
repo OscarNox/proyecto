@@ -32,3 +32,15 @@ mensaje="Hola Jose Oscar"
 extraer_subcadena=mensaje[1:8]
 print(extraer_subcadena)
 
+#esto es una comparacion verdadera
+print("-----Comparacion Verdadera-----")
+mensaje_uno="hola jose oscar"
+mensaje_dos="hola jose oscar"
+print(mensaje_uno==mensaje_dos)
+
+#esto es una comparacion falsa
+print("-----Comparacion Falsa-----")
+mensaje_uno="hola jose oscar"
+mensaje_dos="hola oscar"
+print(mensaje_uno==mensaje_dos)
+
