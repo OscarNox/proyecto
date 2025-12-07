@@ -20,9 +20,15 @@ resultado= numero_uno + numero_dos
 resultado=str(resultado)
 print("El resultado de la suma es: " + resultado) 
 
-print("-----Busqueda-----")
 #esto es una busqueda
+print("-----Busqueda-----")
 mensaje="Hola Jose Oscar"
 buscar_subcadena=mensaje.find("Oscar")
 print(buscar_subcadena)
+
+#esto es una extraccion
+print("-----Extraccion-----")
+mensaje="Hola Jose Oscar"
+extraer_subcadena=mensaje[1:8]
+print(extraer_subcadena)
 
